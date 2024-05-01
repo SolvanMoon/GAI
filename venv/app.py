@@ -6,7 +6,7 @@ import os
 app = Flask(__name__)
 CORS(app)
 
-OPENAI_API_KEY="sk-proj-Yx1n5PnJDuxH9mXZ1Gz9T3BlbkFJ8Zt9cLreuheg0LfRvroa"
+OPENAI_API_KEY=""
 openai.api_key=OPENAI_API_KEY
 
 
