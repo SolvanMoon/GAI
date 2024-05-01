@@ -39,6 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(data => {
             // Display the generated story
             document.getElementById('geratedSt').innerText = data.story;
+            console.log(data.story);
         })
         .catch(error => console.error('Error:', error));
     });
